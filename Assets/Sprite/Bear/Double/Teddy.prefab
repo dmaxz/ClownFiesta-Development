@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1644389050227544180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8884817043297808085}
+  - component: {fileID: 8509464623154665275}
+  m_Layer: 0
+  m_Name: Teddy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8884817043297808085
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644389050227544180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.8838487, y: -2.629953, z: -0.04065018}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2896706714559801383}
+  - {fileID: 5078764953872375157}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &8509464623154665275
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644389050227544180}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0755dc07a7adaf136aabba13255bb601, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &2140604742405846986
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8884817043297808085}
+    m_Modifications:
+    - target: {fileID: 3857297635153977325, guid: 2eefcf3f447701645bd3f380ba699093,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.64376116
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857297635153977325, guid: 2eefcf3f447701645bd3f380ba699093,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5677066
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857297635153977325, guid: 2eefcf3f447701645bd3f380ba699093,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01772771
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857297635153977325, guid: 2eefcf3f447701645bd3f380ba699093,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857297635153977325, guid: 2eefcf3f447701645bd3f380ba699093,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857297635153977325, guid: 2eefcf3f447701645bd3f380ba699093,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857297635153977325, guid: 2eefcf3f447701645bd3f380ba699093,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857297635153977325, guid: 2eefcf3f447701645bd3f380ba699093,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857297635153977325, guid: 2eefcf3f447701645bd3f380ba699093,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857297635153977325, guid: 2eefcf3f447701645bd3f380ba699093,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080311270914575412, guid: 2eefcf3f447701645bd3f380ba699093,
+        type: 3}
+      propertyPath: m_Name
+      value: TeddyBear_Real
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8115669652856573888, guid: 2eefcf3f447701645bd3f380ba699093, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2eefcf3f447701645bd3f380ba699093, type: 3}
+--- !u!4 &2896706714559801383 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3857297635153977325, guid: 2eefcf3f447701645bd3f380ba699093,
+    type: 3}
+  m_PrefabInstance: {fileID: 2140604742405846986}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8357759595049550488
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8884817043297808085}
+    m_Modifications:
+    - target: {fileID: 3857297635153977325, guid: 2eefcf3f447701645bd3f380ba699093,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.64376116
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857297635153977325, guid: 2eefcf3f447701645bd3f380ba699093,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5677066
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857297635153977325, guid: 2eefcf3f447701645bd3f380ba699093,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01772771
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857297635153977325, guid: 2eefcf3f447701645bd3f380ba699093,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857297635153977325, guid: 2eefcf3f447701645bd3f380ba699093,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857297635153977325, guid: 2eefcf3f447701645bd3f380ba699093,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857297635153977325, guid: 2eefcf3f447701645bd3f380ba699093,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857297635153977325, guid: 2eefcf3f447701645bd3f380ba699093,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857297635153977325, guid: 2eefcf3f447701645bd3f380ba699093,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857297635153977325, guid: 2eefcf3f447701645bd3f380ba699093,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080311270914575412, guid: 2eefcf3f447701645bd3f380ba699093,
+        type: 3}
+      propertyPath: m_Name
+      value: TeddyBear_Shadow
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8115669652856573888, guid: 2eefcf3f447701645bd3f380ba699093, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2eefcf3f447701645bd3f380ba699093, type: 3}
+--- !u!4 &5078764953872375157 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3857297635153977325, guid: 2eefcf3f447701645bd3f380ba699093,
+    type: 3}
+  m_PrefabInstance: {fileID: 8357759595049550488}
+  m_PrefabAsset: {fileID: 0}
